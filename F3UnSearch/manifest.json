@@ -1,0 +1,13 @@
+{
+  "manifest_version":2,
+  "name":"点不到的搜索",
+  "version":"1.0",
+  "description":"恶作剧一下下",
+  "content_scripts":[
+    {
+      "matches":["*://www.google.com.hk/*"],
+      "js":["js/cannot_touch.js"]
+    }
+  ]
+}
+

@@ -1,0 +1,14 @@
+{
+  "manifest_version":2,
+  "name":"内部通信案例",
+  "version":"1.0",
+  "description":"就是一个内部通信案例",
+  "browser_action":{
+    "default_popup":"popup.html"
+  },
+  "background":{
+    "scripts":[
+      "js/background.js"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "manifest_version":2,
+  "name":"网站在线否",
+  "version":"1.0",
+  "description":"监视你哦",
+  "icons":{
+    "16":"images/16X16.png",
+    "48":"images/48X48.png",
+    "128":"images/128X128.png"
+  },
+  "browser_action":{
+    "default_icon":"images/48X48.png"
+  },
+  "background":{
+    "scripts":[
+      "js/status.js"
+    ]
+  },
+  "permissions":[
+    "https://www.google.com.hk/"
+  ]
+}

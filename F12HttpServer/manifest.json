@@ -1,0 +1,22 @@
+{
+  "name":"Http Server",
+  "manifest_version":2,
+  "description":"一个服务器",
+  "version":"1.0",
+  "icons":{
+    "128":"128X128.png"
+  },
+  "app":{
+    "background":{
+      "scripts": ["tcp.js", "tcpServer.js", "background.js"]
+    }
+  },
+  "sockets":{
+    "tcp":{
+      "connect":"*"
+    },
+    "tcpServer":{
+      "listen":":80"
+    }
+  }
+}

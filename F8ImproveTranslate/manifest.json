@@ -1,0 +1,23 @@
+{
+  "manifest_version":2,
+  "name":"谷歌翻译",
+  "version":"1.0",
+  "description":"选中翻译",
+  "background":{
+    "scripts":[
+      "js/background.js"
+    ]
+  },
+  "icons":{
+    "16":"images/16X16.png"
+  },
+  "content_scripts":[
+    {
+      "matches":["*://*/*"],
+      "js":["js/content.js"]
+    }
+  ],
+  "permissions":[
+    "contextMenus"
+  ]
+}

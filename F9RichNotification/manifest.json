@@ -1,0 +1,14 @@
+{
+  "name": "桌面提醒",
+  "manifest_version" : 2,
+  "description": "测试啊测试",
+  "version" : "1.0",
+  "browser_action":{
+    "default_icon":"images/16X16.png",
+    "default_title":"测试桌面提醒",
+    "default_popup":"window.html"
+  },
+  "permissions" : [
+     "notifications"
+  ]
+}

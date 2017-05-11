@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "ShowTime",
+  "description": "测试一下",
+  "version": "1.2",
+  "browser_action": {
+    "default_title": "显示时间",
+    "default_icon": "48X48.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "16X16.png",
+    "48": "48X48.png",
+    "128": "128X128.png"
+  },
+  "background":
+  {
+    "scripts": ["jquery.js"]
+  }
+}

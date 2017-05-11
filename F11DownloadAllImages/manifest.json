@@ -1,0 +1,18 @@
+{
+  "manifest_version":2,
+  "name":"保存所有图片",
+  "version":"1.0",
+  "description":"保存当前页面所有的图片",
+  "icons":{
+    "16":"16X16.png"
+  },
+  "background":{
+    "scripts":["background.js"],
+    "persistent":false
+  },
+  "permissions":[
+    "activeTab",
+    "contextMenus",
+    "downloads"
+  ]
+}

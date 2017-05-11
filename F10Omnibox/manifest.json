@@ -1,0 +1,18 @@
+{
+  "name":"多功能搜索框",
+  "manifest_version":2,
+  "description":"展示一下多功能搜索框",
+  "version":"1.0",
+  "omnibox":{"keyword":"usd"},
+  "background":{
+    "scripts":[
+      "js/background.js"
+    ]
+  },
+  "icons":{
+    "16":"images/16X16.png"
+  },
+  "permissions":[
+    "*://query.yahooapis.com/*"
+  ]
+}
